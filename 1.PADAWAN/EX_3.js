@@ -14,7 +14,6 @@ const peliculaMediana = [];
 const peliculaGrande = [];
 
 for (const movie of movies) {
-
   if (movie.durationInMinutes <= 100) {
     peliculaPequeña.push(movie.name);
   } else if (movie.durationInMinutes > 200) {
